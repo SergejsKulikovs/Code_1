@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main() {
+    int a = 10, b = 20, c = 30;
+    int d = a + b; // add values of a and b
+    printf("The value of variable d: %d\n", d);
+
+    int e = d - c; // subtract variable c from d
+    printf("The value of variable e: %d\n", e);
+
+    return 0;
+}
